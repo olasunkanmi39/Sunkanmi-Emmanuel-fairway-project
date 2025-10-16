@@ -473,7 +473,7 @@ div.review-body::-webkit-scrollbar-thumb {
     });
 
     // Close dropdown when clicking outside
-    document.addEventListener("click", (e) => {
+    document.addEventListener("mouseenter", (e) => {
       if (!menuButton.contains(e.target) && !dropdownMenu.contains(e.target)) {
         dropdownMenu.classList.remove("opacity-100", "visible", "scale-100");
         dropdownMenu.classList.add("opacity-0", "invisible", "scale-95");
