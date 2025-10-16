@@ -462,7 +462,7 @@ div.review-body::-webkit-scrollbar-thumb {
     const dropdownMenu = document.getElementById("dropdownMenu");
 
     // Toggle dropdown visibility
-    menuButton.addEventListener("click", (e) => {
+    menuButton.addEventListener("mouseenter", (e) => {
       e.stopPropagation();
       dropdownMenu.classList.toggle("opacity-100");
       dropdownMenu.classList.toggle("visible");
